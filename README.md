@@ -1,40 +1,83 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Robot Ric Website
+
+![Robot Ric Logo](https://www.robotric.org/logo.webp)
+
+## Overview
+
+This repository contains the source code for the official website of "The Waterproof Wanderer: A Journey of Resilience, Self-Discovery, and the Quest for Humanity" novel. The website, accessible at [https://www.robotric.org](https://www.robotric.org), serves as a hub for readers to explore the world of Robot Ric, access exclusive content, and engage in discussions about the themes presented in the novel.
+
+## Coming Features
+
+- Interactive elements linked to the novel
+- Exclusive content for readers
+- Discussion forums
+- Multimedia experiences (animations, soundtracks)
+- Blog with updates and insights from the author
+
+## Tech Stack
+
+- Frontend: [List the main frontend technologies used, e.g., React, Next.js]
+- Hosting: [Vercel]
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Node.js (v14 or later)
+- pnpm (v6 or later)
+
+
+### Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/ericdequ/robot-ric-website.git
+   ```
+
+2. Navigate to the project directory:
+   ```
+   cd robot-ric-website
+   ```
+
+3. Install dependencies:
+   ```
+   npm install
+   ```
+
+4. Set up environment variables:
+   - Copy `.env.example` to `.env`
+   - Fill in the required environment variables
+
+5. Start the development server:
+   ```
+   npm run dev
+   ```
+
+6. Open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
+
+## Contributing
+
+We welcome contributions to improve the Robot Ric website! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.md).
+
+## Contact
+
+For any queries or support, please contact us at [support@robotric.org](mailto:support@robotric.org).
+
+---
+
+Thank you for your interest in the Robot Ric website project. We hope you enjoy exploring the world of The Waterproof Wanderer!
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This README provides a solid foundation for your project repository. You may want to customize it further based on the specific details of your project, such as:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+1. Adding more detailed setup instructions if there are complex configuration steps.
+2. Including information about the project's folder structure.
+3. Mentioning any specific coding standards or guidelines you want contributors to follow.
+4. Adding badges for build status, code coverage, or other relevant metrics.
+5. Providing information about the deployment process.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Remember to create the referenced files like CONTRIBUTING.md and LICENSE.md, and to replace placeholder information (like email addresses and GitHub URLs) with your actual project details.
