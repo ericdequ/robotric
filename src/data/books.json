@@ -1,0 +1,12 @@
+{
+    "books": [
+      {
+        "title": "Robot Ric's First Adventure",
+        "cover": "/river/INSTA.png",
+        "links": [
+          { "platform": "Amazon", "url": "https://www.amazon.com/dp/B0CW1LN77H" }
+          
+        ]
+      }
+    ]
+  }
