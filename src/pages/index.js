@@ -4,16 +4,20 @@ import BookCard from '../components/BookCard'
 import booksData from '../data/books.json'
 import { useState } from 'react'
 import Image from 'next/image'
+import SeoComponent from '../components/SeoComponent'
 
 export default function Home() {
   const [hoveredBook, setHoveredBook] = useState(null)
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-100 via-purple-100 to-pink-100">
-      <Head>
-        <title>Robot Ric&apos;s Adventures</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <SeoComponent 
+        title="Robot Ric's Amazing Adventures"
+        description="Join Robot Ric on his incredible journey through time and space!"
+        canonicalURL="https://robotric.org"
+        image="https://robotric.org/logo.webp"
+        keywords="robot, ric, adventure, book, learning, kids, children, fun, space, time, travel, science, fiction, fantasy, story, reading, literacy, imagination, creativity, education, technology, future, robotric, robotric.org"
+        />
 
       <main className="container mx-auto px-4 py-12">
         <motion.h1 
@@ -22,7 +26,7 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, type: "spring", stiffness: 120 }}
         >
-          Robot Ric&apos;s Amazing Adventures
+          {` Robot Ric&apos;s Amazing Adventures `}
         </motion.h1>
 
         <motion.p
@@ -31,7 +35,7 @@ export default function Home() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.5 }}
         >
-          Join Robot Ric on his incredible journey through time and space!
+          {` Join Robot Ric on his incredible journey through time and space! `}
         </motion.p>
 
         <motion.div 
@@ -61,7 +65,7 @@ export default function Home() {
                     exit={{ opacity: 0, y: 20 }}
                     className="mt-4 bg-white p-4 rounded-lg shadow-lg"
                   >
-                    <p className="text-sm text-gray-600">Get ready for an electrifying adventure with Robot Ric!</p>
+                    <p className="text-sm text-gray-600">{` Get ready for an electrifying adventure with Robot Ric! `}</p>
                   </motion.div>
                 )}
               </AnimatePresence>
@@ -71,7 +75,7 @@ export default function Home() {
       </main>
 
       <footer className="text-center py-8 bg-blue-600 text-white mt-12">
-        <p>&copy; 2024 Robot Ric Adventures. All rights reserved.</p>
+        <p>&copy; {` 2024 Robot Ric Adventures. All rights reserved. `}</p>
       </footer>
     </div>
   )
