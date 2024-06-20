@@ -16,6 +16,7 @@ export default function Home() {
         description="Join Robot Ric on his incredible journey through time and space!"
         canonicalURL="https://robotric.org"
         image="https://robotric.org/logo.webp"
+        video="https://robotric.org/video.mp4"
         keywords="robot, ric, adventure, book, learning, kids, children, fun, space, time, travel, science, fiction, fantasy, story, reading, literacy, imagination, creativity, education, technology, future, robotric, robotric.org"
         />
 
@@ -26,7 +27,7 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, type: "spring", stiffness: 120 }}
         >
-          {` Robot Ric&apos;s Amazing Adventures `}
+          {` Robot Ric's Amazing Adventures `}
         </motion.h1>
 
         <motion.p
